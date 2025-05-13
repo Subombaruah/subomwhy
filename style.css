@@ -1,0 +1,118 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0;
+  color: #4a2c2a;
+}
+
+header {
+  background: #fbd1dc;
+  text-align: center;
+  padding: 3em 1em;
+  border-bottom: 5px solid #d4af7f;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  font-size: 3em;
+  color: #d4af7f;
+}
+
+.tagline {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+.menu {
+  padding: 3em 1em;
+  background: #fff3e6;
+}
+
+.menu h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #4a2c2a;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+.category {
+  background: #ffffff;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.category h3 {
+  font-size: 1.5em;
+  color: #4a2c2a;
+}
+
+.category p {
+  font-size: 1em;
+  color: #7a5c4f;
+}
+
+.price {
+  font-weight: bold;
+  color: #d4af7f;
+  margin-top: 0.5em;
+}
+
+.gallery {
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.images img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ddd;
+  transition: transform 0.3s ease;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+
+.contact {
+  background: #fde4e1;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+footer {
+  background: #4a2c2a;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+}
+
+footer p {
+  font-size: 1.2em;
+}
