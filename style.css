@@ -116,3 +116,37 @@ footer {
 footer p {
   font-size: 1.2em;
 }
+.cake-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.cake-card {
+  width: 250px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ddd;
+  padding: 1em;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cake-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.8em;
+}
+
+.cake-card h4 {
+  font-size: 1.2em;
+  margin: 0.5em 0 0.2em;
+  color: #4a2c2a;
+}
+
+.cake-card .price {
+  font-weight: bold;
+  color: #d4af7f;
+}
